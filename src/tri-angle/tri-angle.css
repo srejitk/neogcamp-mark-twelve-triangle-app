@@ -57,3 +57,45 @@ p {
   padding: 0.5rem;
   font-weight: none;
 }
+
+@media only screen and (max-width: 480px) {
+  label {
+    display: block;
+    margin: 0rem 3rem;
+    font-size: 25px;
+    padding: 2rem;
+  }
+
+  input {
+    display: block;
+    margin: 0rem 3rem;
+    padding: 0.7rem;
+  }
+
+  h1 {
+    font-size: 65px;
+    margin: 3.5rem 3rem;
+  }
+
+  h1:hover {
+    text-decoration-line: underline;
+  }
+  p {
+    font-size: 20px;
+    margin: 0rem 3rem;
+    padding: 0.5rem;
+    font-weight: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    margin: 1rem 3rem;
+  }
+
+  a:hover {
+    color: white;
+    padding: 1rem;
+    background: black;
+  }
+}

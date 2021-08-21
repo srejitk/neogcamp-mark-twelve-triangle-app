@@ -65,3 +65,43 @@ footer a:hover {
 h1:hover {
   text-decoration-line: underline;
 }
+
+@media only screen and (max-width: 480px) {
+  #app1,
+  #app2,
+  #app3,
+  #app4 {
+    font-size: 30px;
+    margin: 1rem 1rem;
+    padding: 0.25rem 0rem;
+  }
+
+  footer a {
+    background: white;
+    font-size: 16px;
+    display: block;
+    width: 10%;
+    text-decoration: none;
+    color: black;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  footer a:hover {
+    font-size: 20px;
+    background: black;
+    text-align: left;
+    display: block;
+    width: 10%;
+    color: white;
+    margin: 1rem 0rem;
+    padding: 1rem 4rem;
+  }
+
+  footer {
+    margin: 4rem 0rem 0rem 0rem;
+    text-align: left;
+  }
+}
