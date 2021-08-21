@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tri-Hypo</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./tri-hypo.css">
+  </head>
+
+  <body>
+    <div id="app">
+        <header><a href="/index.html" id="home">BACK</a></header>
+      <h1 id="header">Tri-Hypo<h1>
+          <p>
+              Input the length of sides below and we'll give you the length of the hypotenuse
+            </p>
+            <p>
+              HOW? : Well, we'll be using the formulae c = √(a² + b²) where c is the
+              hypotenuse, a and b are length of the sides of triangle.
+            </p>
+      <label for="length-1">Enter length of side a :</label>
+      <input type="number" id="length-1" placeholder="In cm" />
+
+      <label for="length-2">Enter length of side b :</label>
+      <input type="number" id="length-2" placeholder="In cm" />
+
+      <button id="chk-hypo">Check!</button>
+      <div id="output-id"></div>
+    </div>
+
+    <script src="./tri-hypo.js"></script>
+  </body>
+</html>

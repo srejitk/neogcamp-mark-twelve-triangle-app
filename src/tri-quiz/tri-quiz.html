@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tri-Quiz</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./tri-quiz.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <header><a href="/index.html" id="home">BACK</a></header>
+      <h1>Tri-Quiz</h1>
+      <form action="" class="form-quiz">
+        <div class="question_container">
+          <p>1. Which ancient Greek philosopher studied triangles?</p>
+          <label for=""
+            ><input
+              type="radio"
+              name="question-1"
+              id=""
+              value="Pythagoras"
+            />Pythagoras</label
+          >
+
+          <label for=""
+            ><input
+              type="radio"
+              name="question-1"
+              id=""
+              value="Aristotle"
+            />Aristotle</label
+          >
+          <label for=""
+            ><input
+              type="radio"
+              name="question-1"
+              id=""
+              value="Socrates"
+            />Socrates</label
+          >
+        </div>
+        <div class="question_container">
+          <p>
+            2. What's the name of the type of maths that studies the sides and
+            angles of triangles?
+          </p>
+          <label for=""
+            ><input
+              type="radio"
+              name="question-2"
+              id=""
+              value="Geometry"
+            />Geometry</label
+          >
+          <label for=""
+            ><input
+              type="radio"
+              name="question-2"
+              id=""
+              value="Trignometry"
+            />Trignometry</label
+          >
+          <label for=""
+            ><input
+              type="radio"
+              name="question-2"
+              id=""
+              value="Triology"
+            />Triology</label
+          >
+        </div>
+        <div class="question_container">
+          <p>
+            3. In triangle ABC, angle A = 90º and angle B = 25º. In triangle
+            DEF, angle E = 25º and angle F = 65º. Are the triangles similar?
+          </p>
+          <label for=""
+            ><input type="radio" name="question-3" value="True" />True</label
+          >
+          <label for=""
+            ><input type="radio" name="question-3" value="False" />False</label
+          >
+        </div>
+        <div class="question_container">
+          <p>
+            4. A ________ triangle is one where all 3 angles measure less than
+            90 degrees.
+          </p>
+          <label for=""
+            ><input type="radio" name="question-4" value="Acute" />Acute</label
+          >
+          <label for=""
+            ><input type="radio" name="question-4" value="Right" />Right</label
+          >
+          <label for=""
+            ><input
+              type="radio"
+              name="question-4"
+              value="Obtuse"
+            />Obtuse</label
+          >
+        </div>
+        <div class="question_container">
+          <p>
+            5. All 3 interior angles of a triangle add up to
+          </p>
+          <label for=""
+            ><input type="radio" name="question-5" value="90°" />90°</label
+          >
+          <label for=""
+            ><input type="radio" name="question-5" value="180°" />180°</label
+          >
+          <label for=""
+            ><input type="radio" name="question-5" value="360°" />360°</label
+          >
+        </div>
+      </form>
+      <button id="submit-btn">Submit</button>
+      <div id="output"></div>
+    </div>
+
+    <script src="./tri-quiz.js"></script>
+  </body>
+</html>

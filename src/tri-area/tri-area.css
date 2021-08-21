@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+  margin: 0rem 4rem;
+  font-size: 25px;
+  padding: 2rem 0rem;
+  text-decoration-line: none;
+}
+
+input {
+  display: block;
+  margin: 0rem 4rem;
+  padding: 0.7rem 5rem 0.7rem 0.5rem;
+}
+
+#header {
+  font-size: 80px;
+  margin: 3.5rem 4rem;
+}
+#header:hover {
+  text-decoration-line: underline;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin: 3rem 4rem;
+  background: black;
+  color: white;
+}
+
+#output-id {
+  padding: 1rem 0rem;
+  margin: 1rem 4rem;
+  font-size: 25px;
+  text-decoration-line: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  margin: 1rem 4rem;
+}
+
+a:hover {
+  color: white;
+  padding: 1rem;
+  background: black;
+}
+
+p {
+  font-size: 20px;
+  margin: 0rem 4rem;
+  padding: 0.5rem;
+  font-weight: none;
+}

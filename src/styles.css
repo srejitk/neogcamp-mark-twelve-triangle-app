@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+  padding: 0.5rem 0rem;
+}
+
+button {
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem 0rem;
+  cursor: pointer;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+}
+
+footer a {
+  background: white;
+  display: inline-block;
+  width: 10%;
+  text-decoration: none;
+  color: black;
+  margin: 12rem 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer a:hover {
+  background: black;
+  display: inline-block;
+  width: 10%;
+  text-decoration: none;
+  color: white;
+  margin: 1rem 0.5rem;
+  padding: 1rem;
+}
+
+.page-links {
+  text-decoration-color: white;
+  color: black;
+}
+
+.page-links:hover {
+  text-decoration-color: black;
+  background: black;
+  color: white;
+}
+
+#app1,
+#app2,
+#app3,
+#app4 {
+  font-size: 40px;
+  margin: 1rem 4rem;
+  padding: 0.25rem rem;
+}
+
+h1:hover {
+  text-decoration-line: underline;
+}
